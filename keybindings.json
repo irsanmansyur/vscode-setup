@@ -1,0 +1,37 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "shift+cmd+[",
+    "command": "editor.fold",
+    "when": "editorFocus"
+  },
+  {
+    "key": "shift+cmd+]",
+    "command": "editor.unfold",
+    "when": "editorFocus"
+  },
+
+  {
+    "key": "cmd+l",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus"
+  },
+
+  {
+    "key": "cmd+j",
+    "command": "editor.action.joinLines",
+    "when": "editorTextFocus"
+},
+{
+    "key": "cmd+k cmd+z",
+    "command": "workbench.action.toggleZenMode"
+},
+{
+    "key": "cmd+k z",
+    "command": "-workbench.action.toggleZenMode"
+},
+{
+    "key": "ctrl+s ctrl+b",
+    "command": "workbench.action.toggleStatusbarVisibility"
+}
+]
