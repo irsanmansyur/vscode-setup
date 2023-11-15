@@ -1,0 +1,148 @@
+{
+  "workbench.iconTheme": "vscode-icons",
+  "remote.SSH.enableRemoteCommand": true,
+  "remote.SSH.useLocalServer": false,
+  "php-cs-fixer.onsave": true,
+  "php-cs-fixer.showOutput": false,
+  "php-cs-fixer.autoFixByBracket": false,
+  "php-cs-fixer.rules": "@PSR2",
+  "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+
+  "php.suggest.basic": false,
+  "files.associations": {
+    ".php_cs": "php",
+    ".php_cs.dist": "php"
+  },
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+
+  "search.useIgnoreFiles": false,
+  "search.exclude": {
+    "**/vendor/{[^l],?[^ai]}*": true,
+    "**/public/{[^i],?[^n]}*": true,
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/_ide_helper.php": true,
+    "**/composer.lock": true,
+    "**/package-lock.json": true,
+    "storage": true,
+    ".phpunit.result.cache": true
+  },
+  "emmet.includeLanguages": {
+    "blade": "html",
+    "vue-html": "html",
+    "javascript": "javascriptreact",
+    "vue": "html"
+  },
+
+  "diffEditor.ignoreTrimWhitespace": false,
+
+  "editor.copyWithSyntaxHighlighting": false,
+  "editor.emptySelectionClipboard": true,
+  "editor.snippetSuggestions": "top",
+"editor.detectIndentation": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+
+  "workbench.editor.enablePreview": false,
+  "window.newWindowDimensions": "inherit",
+  "files.trimTrailingWhitespace": true,
+  "diffEditor.renderSideBySide": false,
+  "window.nativeFullScreen": false,
+  "files.insertFinalNewline": true,
+"files.trimFinalNewlines": true,
+  "editor.minimap.enabled": false,
+  "editor.lineNumbers": "off",
+
+  "breadcrumbs.enabled": false,
+  "scm.diffDecorations": "none",
+  "editor.hover.enabled": false,
+  "editor.matchBrackets": "never",
+  "workbench.tips.enabled": false,
+  "editor.colorDecorators": false,
+  "git.decorations.enabled": false,
+  "workbench.startupEditor": "none",
+  "editor.lightbulb.enabled": false,
+  "editor.selectionHighlight": false,
+  "editor.overviewRulerBorder": false,
+  "editor.renderLineHighlight": "none",
+  "editor.occurrencesHighlight": false,
+  "problems.decorations.enabled": false,
+  "editor.renderControlCharacters": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.gotoLocation.multipleReferences": "goto",
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.gotoLocation.multipleDeclarations": "goto",
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "editor.gotoLocation.multipleImplementations": "goto",
+  "editor.gotoLocation.multipleTypeDefinitions": "goto",
+
+  "security.workspace.trust.untrustedFiles": "open",
+  "window.autoDetectColorScheme": true,
+  "workbench.preferredDarkColorTheme": "Tailwind - Dark",
+
+  "customizeUI.titleBar": "inline",
+  "customizeUI.stylesheet": {
+    ".editor .title": "background: transparent !important;",
+    ".monaco-workbench .part.sidebar>.title>.title-label h2": "text-transform: lowercase;",
+    ".editor .title .label-container .label-description": "visibility: hidden;",
+    ".monaco-workbench .part>.title>.title-actions .action-label.codicon.codicon-new-folder": "display: none",
+    ".monaco-workbench .part>.title>.title-actions .action-label.codicon.codicon-new-file": "display: none",
+    ".monaco-workbench .part>.title>.title-actions .action-label.codicon.codicon-toolbar-more": "display: none",
+    "body.inline-title-bar .part>.title>.title-actions .action-label": "min-width: 0 !important",
+    ".monaco-workbench .part.sidebar .title-actions .action-item": "margin-right: 0",
+    ".editor .title .actions-container .action-item a": "visibility: hidden;",
+    ".editor .title .actions-container .action-item a[title=\"Open Settings (UI)\"]": "visibility: initial;",
+    ".editor .title .actions-container .action-item a[title=\"Open Settings (JSON)\"]": "visibility: initial;",
+    ".editor .title .actions-container": "flex-direction: row-reverse;",
+    ".editor .scrollbar .slider": "visibility: hidden",
+    ".editor .scrollbar:hover .slider": "visibility: initial",
+    ".monaco-editor .cursor": "background: linear-gradient(to bottom, #F97316, #E11D48) !important; color: #292D3E !important"
+  },
+  "inlineFold.maskChar": "•••",
+  "inlineFold.maskColor": "#6B7280",
+  "inlineFold.supportedLanguages": [
+    "html",
+    "svelte",
+    "php",
+    "vue",
+    "javascript",
+    "typescript",
+    "javascriptreact",
+    "typescriptreact"
+  ],
+
+  "zenMode.centerLayout": false,
+
+  // Formatter
+  "[blade]": {
+    "editor.defaultFormatter": "amirmarmul.laravel-blade-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": false
+  },
+
+  "workbench.colorTheme": "Tailwind - Dark",
+
+  //   terminal setup
+  "terminal.integrated.fontSize": 12,
+"terminal.integrated.lineHeight": 0.9,
+"workbench.activityBar.location": "hidden",
+"editor.guides.indentation": false
+}
